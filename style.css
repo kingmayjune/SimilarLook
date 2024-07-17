@@ -1,13 +1,25 @@
+@font-face {
+    font-family: 'ChosunGs';
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunGs/ChosunGs.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunGs/ChosunGs.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunGs/ChosunGs.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunGs/ChosunGs.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/ChosunGs/ChosunGs.ttf') format("truetype");
+    font-display: swap;
+}
+
 #title {
 	text-align: center;
 	font-size: 300%;
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 }
 
 
 
 body {
-  font-family: '궁서';
+  font-family: 'ChosunGs';
   background-color: #eeeeee;
 }
 
@@ -129,24 +141,24 @@ body {
   transition: all .2s ease;
 }
 h3 {
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 }
 #uploadbtn {
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 }
 
 #removebtn {
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 }
 #label-container {
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 	font-size: 300%;
 	text-align: center;
 }
 
 #TheButton {
 	background-color: pink;
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 	font-size: 300%;
 	text-align: center;
 
@@ -164,7 +176,7 @@ h3 {
 
 #TheButton:hover {
 	background-color: red;
-	font-family: '궁서';
+	font-family: 'ChosunGs';
 	font-size: 300%;
 	text-align: center;
 
